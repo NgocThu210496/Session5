@@ -1,0 +1,99 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box; 
+}
+main{
+    width: 1024px;
+    padding: 20px;
+}
+.content{
+    width: 100%;
+    height: 100%
+}
+.content_left{
+    width:50% ;
+    float: left;
+}
+
+.content_left img{
+    width: 450px;
+    height: 320px;
+    border-radius: 5px;
+}
+.content_right{
+    width:50% ;
+    float: left;
+}
+.content_right_about{
+    margin-bottom: 20px;
+}
+.content_right_about > h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.content_right_about > h2::after {
+    content: "";
+   width: 50px;
+    display: block;
+    margin-top: 5px;
+    border-bottom: 3px solid #7B98D0;
+}
+.content_right_about>p{
+    padding-top: 10px;
+    line-height: 20px;
+    word-spacing: 5px;
+    color: #C5C5C5;
+}
+.choose{
+    width: 100%;
+}
+/*choose_left*/
+.content_right_choose{
+    font-size: 20px;
+}
+.choose_left{
+    width: 50%;
+    float: left;
+}
+
+.content_left_items {
+    text-indent: 10px;
+    margin-top: 10px;
+    color: #C5C5C5;
+}
+
+.content_left_items > .item-icon {
+    font-size: 25px;
+    color: #58e772;
+    font-size: 14px;
+}
+
+.content_left_items > .item-title {
+    font-size: 15px;
+    margin-left: 5px;
+}
+/*end choose_left*/
+/*choose_right*/
+.choose_right{
+    width: 50%;
+    float: left;
+}
+.content_right_items {
+    text-indent: 10px;
+    margin-top: 10px;
+    color: #C5C5C5;
+}
+
+.content_right_items > .item-icon {
+    font-size: 25px;
+    color: #58e772;
+    font-size: 14px;
+}
+
+.content_right_items > .item-title {
+    font-size: 15px;
+    margin-left: 5px;
+}
